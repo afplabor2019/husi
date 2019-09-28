@@ -1,3 +1,3 @@
-Offenbächer Géza
-Geng Julián
-Urbán Regina
+Offenbächer Géza  
+Geng Julián  
+Urbán Regina  
