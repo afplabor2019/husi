@@ -10,11 +10,12 @@ Egy gyorsétteremlánc számára készítünk mobiltelefonos applikációt Andro
 # 2. Jelenlegi helyzet
 
 Jelenleg semmiféle hasonló rendszer nem működik.
-A vásárló bemegy az étteremlánc egyik üzletébe, válszt a menüről, fizet és távozik.
+A vásárló bemegy az étteremlánc egyik üzletébe, választ a menüről, fizet és távozik.
 
 # 3. Vágyálom rendszer
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque, ipsum ac viverra fermentum, sapien augue convallis massa, eget eleifend ex magna in ipsum. Integer finibus consequat erat ut hendrerit. Etiam a velit ac dolor convallis porta. Ut vestibulum mollis tincidunt. Quisque eu sem at odio efficitur convallis ac placerat ligula. Aliquam scelerisque est metus, eu facilisis ligula sagittis sit amet. Praesent condimentum mi sed tellus imperdiet dignissim. Maecenas tristique lectus suscipit eros cursus pharetra. Mauris scelerisque blandit neque, nec pellentesque justo ullamcorper eget. Pellentesque feugiat rhoncus ante, sed blandit nulla pretium sit amet. Nullam auctor fermentum purus, posuere dignissim massa luctus eget. Vivamus interdum diam enim, egestas cursus quam porta et. Morbi bibendum dui ut lectus semper accumsan.
+A vásárló bemyegy az üzletlánc egyik éttermébe és a nála lévő mobiltelefonnal igénybe veszi a kedvezményt a vásárlásához, majd választ a menürőlk, fizet és távozik.
+
 
 # 4. Rendszerre vonatkozó törvények, szabványok, ajánlások
 
@@ -32,19 +33,20 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque, ipsu
 
 # 5. Jelenlegi üzleti folyamatok modellje
 
-```mermaid
-graph LR
-A[Vásárló]  --> B((Ételt választ))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
-```
+[Vásárló]  --> (Ételt választ) --> [Éttermi alkalmazott]
+[Vásárló]  --> (Fizet) --> [Éttermi alkalmazott]
+[Éttermi alkalmazott] -- > (Kiszolgál) --> [Vásárló] 
+
 
 #  6. Igényelt üzleti folyamatok
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque, ipsum ac viverra fermentum, sapien augue convallis massa, eget eleifend ex magna in ipsum. Integer finibus consequat erat ut hendrerit. Etiam a velit ac dolor convallis porta. Ut vestibulum mollis tincidunt. Quisque eu sem at odio efficitur convallis ac placerat ligula. Aliquam scelerisque est metus, eu facilisis ligula sagittis sit amet. Praesent condimentum mi sed tellus imperdiet dignissim. Maecenas tristique lectus suscipit eros cursus pharetra. Mauris scelerisque blandit neque, nec pellentesque justo ullamcorper eget. Pellentesque feugiat rhoncus ante, sed blandit nulla pretium sit amet. Nullam auctor fermentum purus, posuere dignissim massa luctus eget. Vivamus interdum diam enim, egestas cursus quam porta et. Morbi bibendum dui ut lectus semper accumsan.
+[Vásárló]  --> (Ételt választ) --> [Éttermi alkalmazott]
+[Vásárló]  --> (Kupont lérvenyesít) --> [Éttermi alkalmazott]
+[Éttermi alkalmazott] --> (Kedvezmény) --> [Vásárló]
+[Vásárló]  --> (Fizet) --> [Éttermi alkalmazott]
+[Éttermi alkalmazott] -- > (Kiszolgál) --> [Vásárló] 
+
 
 
 # 7. Követelmény Lista
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque, ipsum ac viverra fermentum, sapien augue convallis massa, eget eleifend ex magna in ipsum. Integer finibus consequat erat ut hendrerit. Etiam a velit ac dolor convallis porta. Ut vestibulum mollis tincidunt. Quisque eu sem at odio efficitur convallis ac placerat ligula. Aliquam scelerisque est metus, eu facilisis ligula sagittis sit amet. Praesent condimentum mi sed tellus imperdiet dignissim. Maecenas tristique lectus suscipit eros cursus pharetra. Mauris scelerisque blandit neque, nec pellentesque justo ullamcorper eget. Pellentesque feugiat rhoncus ante, sed blandit nulla pretium sit amet. Nullam auctor fermentum purus, posuere dignissim massa luctus eget. Vivamus interdum diam enim, egestas cursus quam porta et. Morbi bibendum dui ut lectus semper accumsan.
