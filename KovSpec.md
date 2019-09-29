@@ -29,7 +29,7 @@ A vásárló bemegy az üzletlánc egyik éttermébe és a nála lévő mobiltel
 -   AZ EURÓPAI PARLAMENT ÉS A TANÁCS (EU) 2016/679 RENDELETE (2016. április 27.) a természetes személyeknek a személyes adatok kezelése tekintetében történő védelméről és az ilyen adatok szabad áramlásáról, valamint a 95/46/EK rendelet hatályon kívül helyezéséről (általános adatvédelmi rendelet)
 -   MMXI. évi CXII. törvény az információs önrendelkezési jogról és az információszabadságról ( Infotv.)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque, ipsum ac viverra fermentum, sapien augue convallis massa, eget eleifend ex magna in ipsum. Integer finibus consequat erat ut hendrerit. Etiam a velit ac dolor convallis porta. Ut vestibulum mollis tincidunt. Quisque eu sem at odio efficitur convallis ac placerat ligula. Aliquam scelerisque est metus, eu facilisis ligula sagittis sit amet. Praesent condimentum mi sed tellus imperdiet dignissim. Maecenas tristique lectus suscipit eros cursus pharetra. Mauris scelerisque blandit neque, nec pellentesque justo ullamcorper eget. Pellentesque feugiat rhoncus ante, sed blandit nulla pretium sit amet. Nullam auctor fermentum purus, posuere dignissim massa luctus eget. Vivamus interdum diam enim, egestas cursus quam porta et. Morbi bibendum dui ut lectus semper accumsan.
+
 
 # 5. Jelenlegi üzleti folyamatok modellje
 
