@@ -14,7 +14,7 @@ A vásárló bemegy az étteremlánc egyik üzletébe, választ a menüről, fiz
 
 # 3. Vágyálom rendszer
 
-A vásárló bemyegy az üzletlánc egyik éttermébe és a nála lévő mobiltelefonnal igénybe veszi a kedvezményt a vásárlásához, majd választ a menürőlk, fizet és távozik.
+A vásárló bemegy az üzletlánc egyik éttermébe és a nála lévő mobiltelefonnal igénybe veszi a kedvezményt a vásárlásához, majd választ a menürőlk, fizet és távozik.
 
 
 # 4. Rendszerre vonatkozó törvények, szabványok, ajánlások
