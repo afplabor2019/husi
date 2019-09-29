@@ -32,10 +32,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque, ipsu
 
 # 5. Jelenlegi üzleti folyamatok modellje
 
-You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
-
 ```mermaid
-sequenceDiagram
+graph LR
+A[Vásárló]  --> B((Ételt választ))
+A --> C(Round Rect)
+B --> D{Rhombus}
+C --> D
 ```
 
 #  6. Igényelt üzleti folyamatok
