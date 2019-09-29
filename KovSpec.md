@@ -1,3 +1,32 @@
-Offenbächer Géza  
-Geng Julián  
-Urbán Regina  
+# Követelményspecifikáció
+
+Ez a követelményspec első formázása.
+
+
+# 1. Áttekintés
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque, ipsum ac viverra fermentum, sapien augue convallis massa, eget eleifend ex magna in ipsum. Integer finibus consequat erat ut hendrerit. Etiam a velit ac dolor convallis porta. Ut vestibulum mollis tincidunt. Quisque eu sem at odio efficitur convallis ac placerat ligula. Aliquam scelerisque est metus, eu facilisis ligula sagittis sit amet. Praesent condimentum mi sed tellus imperdiet dignissim. Maecenas tristique lectus suscipit eros cursus pharetra. Mauris scelerisque blandit neque, nec pellentesque justo ullamcorper eget. Pellentesque feugiat rhoncus ante, sed blandit nulla pretium sit amet. Nullam auctor fermentum purus, posuere dignissim massa luctus eget. Vivamus interdum diam enim, egestas cursus quam porta et. Morbi bibendum dui ut lectus semper accumsan.
+
+# 2. Jelenlegi helyzet
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque, ipsum ac viverra fermentum, sapien augue convallis massa, eget eleifend ex magna in ipsum. Integer finibus consequat erat ut hendrerit. Etiam a velit ac dolor convallis porta. Ut vestibulum mollis tincidunt. Quisque eu sem at odio efficitur convallis ac placerat ligula. Aliquam scelerisque est metus, eu facilisis ligula sagittis sit amet. Praesent condimentum mi sed tellus imperdiet dignissim. Maecenas tristique lectus suscipit eros cursus pharetra. Mauris scelerisque blandit neque, nec pellentesque justo ullamcorper eget. Pellentesque feugiat rhoncus ante, sed blandit nulla pretium sit amet. Nullam auctor fermentum purus, posuere dignissim massa luctus eget. Vivamus interdum diam enim, egestas cursus quam porta et. Morbi bibendum dui ut lectus semper accumsan.
+
+# 3. Vágyálom rendszer
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque, ipsum ac viverra fermentum, sapien augue convallis massa, eget eleifend ex magna in ipsum. Integer finibus consequat erat ut hendrerit. Etiam a velit ac dolor convallis porta. Ut vestibulum mollis tincidunt. Quisque eu sem at odio efficitur convallis ac placerat ligula. Aliquam scelerisque est metus, eu facilisis ligula sagittis sit amet. Praesent condimentum mi sed tellus imperdiet dignissim. Maecenas tristique lectus suscipit eros cursus pharetra. Mauris scelerisque blandit neque, nec pellentesque justo ullamcorper eget. Pellentesque feugiat rhoncus ante, sed blandit nulla pretium sit amet. Nullam auctor fermentum purus, posuere dignissim massa luctus eget. Vivamus interdum diam enim, egestas cursus quam porta et. Morbi bibendum dui ut lectus semper accumsan.
+
+# 4. Rendszerre vonatkozó törvények, szabványok, ajánlások
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque, ipsum ac viverra fermentum, sapien augue convallis massa, eget eleifend ex magna in ipsum. Integer finibus consequat erat ut hendrerit. Etiam a velit ac dolor convallis porta. Ut vestibulum mollis tincidunt. Quisque eu sem at odio efficitur convallis ac placerat ligula. Aliquam scelerisque est metus, eu facilisis ligula sagittis sit amet. Praesent condimentum mi sed tellus imperdiet dignissim. Maecenas tristique lectus suscipit eros cursus pharetra. Mauris scelerisque blandit neque, nec pellentesque justo ullamcorper eget. Pellentesque feugiat rhoncus ante, sed blandit nulla pretium sit amet. Nullam auctor fermentum purus, posuere dignissim massa luctus eget. Vivamus interdum diam enim, egestas cursus quam porta et. Morbi bibendum dui ut lectus semper accumsan.
+
+# 5. Jelenlegi üzleti folyamatok modellje
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque, ipsum ac viverra fermentum, sapien augue convallis massa, eget eleifend ex magna in ipsum. Integer finibus consequat erat ut hendrerit. Etiam a velit ac dolor convallis porta. Ut vestibulum mollis tincidunt. Quisque eu sem at odio efficitur convallis ac placerat ligula. Aliquam scelerisque est metus, eu facilisis ligula sagittis sit amet. Praesent condimentum mi sed tellus imperdiet dignissim. Maecenas tristique lectus suscipit eros cursus pharetra. Mauris scelerisque blandit neque, nec pellentesque justo ullamcorper eget. Pellentesque feugiat rhoncus ante, sed blandit nulla pretium sit amet. Nullam auctor fermentum purus, posuere dignissim massa luctus eget. Vivamus interdum diam enim, egestas cursus quam porta et. Morbi bibendum dui ut lectus semper accumsan.
+
+#  6. Igényelt üzleti folyamatok
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque, ipsum ac viverra fermentum, sapien augue convallis massa, eget eleifend ex magna in ipsum. Integer finibus consequat erat ut hendrerit. Etiam a velit ac dolor convallis porta. Ut vestibulum mollis tincidunt. Quisque eu sem at odio efficitur convallis ac placerat ligula. Aliquam scelerisque est metus, eu facilisis ligula sagittis sit amet. Praesent condimentum mi sed tellus imperdiet dignissim. Maecenas tristique lectus suscipit eros cursus pharetra. Mauris scelerisque blandit neque, nec pellentesque justo ullamcorper eget. Pellentesque feugiat rhoncus ante, sed blandit nulla pretium sit amet. Nullam auctor fermentum purus, posuere dignissim massa luctus eget. Vivamus interdum diam enim, egestas cursus quam porta et. Morbi bibendum dui ut lectus semper accumsan.
+
+
+# 7. Követelmény Lista
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque, ipsum ac viverra fermentum, sapien augue convallis massa, eget eleifend ex magna in ipsum. Integer finibus consequat erat ut hendrerit. Etiam a velit ac dolor convallis porta. Ut vestibulum mollis tincidunt. Quisque eu sem at odio efficitur convallis ac placerat ligula. Aliquam scelerisque est metus, eu facilisis ligula sagittis sit amet. Praesent condimentum mi sed tellus imperdiet dignissim. Maecenas tristique lectus suscipit eros cursus pharetra. Mauris scelerisque blandit neque, nec pellentesque justo ullamcorper eget. Pellentesque feugiat rhoncus ante, sed blandit nulla pretium sit amet. Nullam auctor fermentum purus, posuere dignissim massa luctus eget. Vivamus interdum diam enim, egestas cursus quam porta et. Morbi bibendum dui ut lectus semper accumsan.
