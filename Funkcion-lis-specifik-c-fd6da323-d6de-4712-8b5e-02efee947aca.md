@@ -45,3 +45,7 @@ A vásárló bemegy az üzletlánc egyik éttermébe és a nála lévő mobiltel
 ![](Untitled-7fb3c45d-d0f4-433a-ab22-532100a3ce2b.png)
 
 **Az alkalmazás kezdőképernyője**
+
+# 9. Használati esetek
+  Vásárló felület: opcionális: Bejelentkezés/kijelentkezés VAGY regisztráció --> kupon kiválasztása --> kedvezmény részletes leírása --> kupon érvényesíthető --> használt kupon eltűnik
+  HR-es felülete: Bejelentkezés/Kijelentkezés --> új kupon hozzáadása (kedvezmény leírása, lejárati dátum) / kupon törlése / statisztikák megtekintése (havi/éves nézet, kuponok népszerűsége)
