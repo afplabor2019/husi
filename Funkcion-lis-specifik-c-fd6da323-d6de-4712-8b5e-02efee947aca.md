@@ -50,3 +50,10 @@ A vásárló bemegy az üzletlánc egyik éttermébe és a nála lévő mobiltel
   Vásárló felület: opcionális: Bejelentkezés/kijelentkezés VAGY regisztráció --> kupon kiválasztása --> kedvezmény részletes leírása --> kupon érvényesíthető --> használt kupon eltűnik
   
   HR-es felülete: Bejelentkezés/Kijelentkezés --> új kupon hozzáadása (kedvezmény leírása, lejárati dátum) / kupon törlése / statisztikák megtekintése (havi/éves nézet, kuponok népszerűsége)
+
+# 10. Forgatókönyv
+  - feltöltik a rendszerbe a kupont
+  - érvényesítik a kupont
+  - a kupon népszerűsége növekszik, a havi statisztikába bekerül
+  - a fiókból/ eszközről törlődik a felhasznált kupon
+ (- a lejárt kuponok autómatikusan törlődnek mindenhonnan)
