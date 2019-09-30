@@ -48,4 +48,5 @@ A vásárló bemegy az üzletlánc egyik éttermébe és a nála lévő mobiltel
 
 # 9. Használati esetek
   Vásárló felület: opcionális: Bejelentkezés/kijelentkezés VAGY regisztráció --> kupon kiválasztása --> kedvezmény részletes leírása --> kupon érvényesíthető --> használt kupon eltűnik
+  
   HR-es felülete: Bejelentkezés/Kijelentkezés --> új kupon hozzáadása (kedvezmény leírása, lejárati dátum) / kupon törlése / statisztikák megtekintése (havi/éves nézet, kuponok népszerűsége)
