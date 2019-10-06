@@ -1,5 +1,3 @@
-# KovSpec
-
 # Követelményspecifikáció
 
 Ez a követelményspceifikáció az ügyvezetővel készült riport eredménye, még további pontosításra szorul.
