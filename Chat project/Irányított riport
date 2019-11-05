@@ -1,17 +1,28 @@
 1.1 Kérem, írja körül, hogy jelenleg milyen rendszert használnak, ha használnak!
+  Jelenleg a diákok különböző népszerű chat alkalmazásokat használnak (pl: messenger), nincsen egységesen használt alkalmazás.
 
 1.2 Milyen nehézségek adódtak ezen?
+  A diákok ugyanazt az alkalmazást használják magánjellegű beszélgetésekre, az iskolai feladatokhoz, különböző projektekhez,
+  így a különböző információk kevésbé átláthatóak, keverednek. Az új alkalmazás az iskolával kapcsolatos kommunikáció színtere lenne.
 
 2. Milyen fő funkciókat vár el egy ilyen rendszertől?
+  Az alkalmazás elsődleges célja, hogy egy külön felületet biztosítson az iskolával kapcsolatos témák megvitatására.
+  Bejelentkezés, kijelnetkezés legyen lehetséges.
+  
+3. Milyen biztonsági szintet kell kielégítenie Ön szerint a chat programnak?
+  Bejelnetkezésnél felhasználó név és jelszó megadása legyen kötelező.
+  A jelszó tartalmazzon legalább 2 nagybetűt és legalább 2 számot, a hossza pedig legalább 8 karakter legyen.
 
-3. Ön szerint egyszerre mennyi felhasználónak lehessen lehetősége használni a programot?
+4.1 Ön szerint szükséges-e a külső fájlok csatolásának lehetősége?
+  Nem szükséges, csak szöveges üzeneteket továbbítunk.
 
-4. Milyen biztonsági szintet kell kielégítenie Ön szerint a chat programnak?
+4.2 Ha igen, milyen típusú fájlok?
+  -
 
-5.1 Ön szerint szükséges-e a külső fájlok csatolásának lehetősége?
+5. Milyen előnyöket nyújt Ön szerint a chat program az Ön esetében?
+  A diákok egy helyen tudják megosztani az információkat az iskolával kapcsolatban.
+  Mivel ez egy külön felület kifejezetten az iskolai feladatokra így átláthatóbbá válik, mert nem zavarnak be egyéb tényezők a beszélgetésbe,
+  nem kell vissza keresgélni. A program használata a diákok számára szorosan a tanulmányokhoz kötődne.
 
-5.2 Ha igen, milyen típusú fájlok?
-
-6. Milyen előnyöket nyújt Ön szerint a chat program az Ön esetében?
-
-7. Milyen „vágyálom” funkciókat látna szívesen egy ilyen rendszertől?
+6. Milyen „vágyálom” funkciókat látna szívesen egy ilyen rendszertől?
+  A felület személyre szabásának lehetőségét.
