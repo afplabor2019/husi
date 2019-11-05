@@ -4,23 +4,19 @@ Ez a követelményspceifikáció az ügyvezetővel készült riport eredménye, 
 
 # 1. Áttekintés
 
-Egy gyorsétteremlánc számára készítünk mobiltelefonos applikációt Android és IOS rendszerre egyaránt. A program fő funciója, hogy a törzsvásárlóknak egyedi kedvezményeket adhasson az étterem központja, amit az országban bármelyik elfogadóhelyén érvényesíthetnek, de csak egyszer fejenként. Ezeket az ajánlatokat számítástechnikában felhasználói szintű készséggel rendelkező munkatárs fogja aktiválni.
+Diákok számára készítünk chat programot, kifejezetten az iskolával kapcsolatos témák megvitatására. Megtudják beszélni a házi feladatot, segíteni tudnak egymásnak az anyag megértésében, pótlásában. Bejelentkezés szükséges a program használatához. Fájlok csatolására nincsen lehetőség, elsősorban a szöveges üzenetek küldése biztosított.
 
 # 2. Jelenlegi helyzet
 
-Jelenleg semmiféle hasonló rendszer nem működik. A vásárló bemegy az étteremlánc egyik üzletébe, választ a menüről, fizet és távozik.
-A választás időigényes lehet, míg a megfelelő termékeket az aktuális kedvezmények kombinációjával kiválasztják.
-Az össze nem vonható kedvezmények esetleg félreértésekre adhatnak okot, amik további plusz időt jelenthetnek a pénztárnál.
+Jelenleg a diákok különböző chat alkalmazásokat használnak (pl: messenger), nincsen egységesen használt alkalmazás.
+A diákok ugyanazt az alkalmazást használják magánjellegű beszélgetésekre, az iskolai feladatokhoz, különböző projektekhez, így a különböző információk kevésbé átláthatóak, keverednek.
 
 # 3. Vágyálom rendszer
 
-A vásárló bemegy az üzletlánc egyik éttermébe és a nála lévő mobiltelefonnal igénybe veszi a kedvezményt a vásárlásához, majd választ a menürőlk, fizet és távozik.
-- A pénztárnál töltött idő így jelentősen lerövidül.
-- A vásárlók a kedvezményekről már az étterembe érkezés előtt nagyon könnyen és egyszerűen tájékozódhatnak.
-- A megfelelő kuponok használatával a nagyobb társaságok kiszolgálása is egyszerűsödik, a vásárlók számára is átláthatóbb a rendelésük. 
-- Az alkalmazás felületének letisztultsága és egyszerűsége biztosítja, hogy mindenki számára gördülékenyen menjen a vásárlás, legyen rendszeres vagy alakalmi vendég. 
-- A késöbbiekben az elkészült statisztikákkat felhasználva a ajánlatok még jobban a vásárlók igényeihez igazíthatóak,
- így tovább népszerűsítve az alkalmazást.
+Az új alkalmazás az iskolával kapcsolatos kommunikáció színtere lenne.
+A diákok egy helyen tudják megosztani az információkat a taulményaik kapcsán.
+Mivel ez egy külön felület kifejezetten az iskolai feladatokra így átláthatóbbá válik, mert nem zavarnak be egyéb tényezők a beszélgetésbe, nem kell vissza keresgélni. A program használata a diákok számára szorosan a tanulmányokhoz kötődne.
+Bejelentkezéssel lehet használni a programot.
 
 # 4. Rendszerre vonatkozó törvények, szabványok, ajánlások
 
@@ -36,20 +32,11 @@ A vásárló bemegy az üzletlánc egyik éttermébe és a nála lévő mobiltel
 
 # 5. Jelenlegi üzleti folyamatok modellje
 
-[Vásárló] –> (Ételt választ) –> [Éttermi alkalmazott] [Vásárló] –> (Fizet) –> [Éttermi alkalmazott] [Éttermi alkalmazott] – > (Kiszolgál) –> [Vásárló]
-
-- Vásárló ételt választ: csak az étteremben szembesül az aktuális akciókkal, esetleg ezek ismeretében újra gondolja a rendelését, ami a pénztárnál jelenthet plusz időt
-- Az éttermi alkalmazott beüti a termékeket: nagyobb társaság esetében az átláthatatlanság miatt könnyen történhetnek félre értések (összesen 9 sajtburger? Nem, csak 7, mert Kati mondta János adagját is, de János is mondta a saját adagját, nem tudva, hogy már rendeltek neki) ezek javítása megintcsak időigényes.
+A diákok ugyanazt a felületet használják az életük szinte minden területéhez, így a chatben való visszakeresgélés, a tanulmányok szempontjából irreleváns dolgok kiszűrése nehezíti a diákok dolgát amikor kifejezetten az iskolával kapcsolatos dolgokat szeretnék megvítatni, áttekinteni.
 
 # 6. Igényelt üzleti folyamatok
 
-[Vásárló] –> (Ételt választ) –> [Éttermi alkalmazott] [Vásárló] –> (Kupont lérvenyesít) –> [Éttermi alkalmazott] [Éttermi alkalmazott] –> (Kedvezmény) –> [Vásárló] [Vásárló] –> (Fizet) –> [Éttermi alkalmazott] [Éttermi alkalmazott] – > (Kiszolgál) –> [Vásárló]
-
--A vásárlók az aktuális ajánlatok ismeretével érkezhetnek az étterembe, ennek tudatában tervezve a rendelésüket. A pénztárnál a gondolkodással, variálással töltött idő jelentősen lerövidül.
-- A kupunokon összeállított menük átláthatóbbá teszik a rendelést, a félre értések lehetősége minimálisra csökken, nagy társaságok esetén is.
-- Tehát időt spóroltunk és a rendelés mind a vásárló, mind az éttermi alkalmazott számára egyszerűsödik, letisztul.
+Az új felület a diákok tanulmányaihoz szorosan kapcsolódó indormációk jelennek meg, zavaró tényezők nélkül.
  
 
-# 7. Követelmény Lista
 
-[Untitled](https://www.notion.so/15839ee244c84b7296cab2838e603246)
