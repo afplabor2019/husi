@@ -14,7 +14,7 @@ A diákok ugyanazt az alkalmazást használják magánjellegű beszélgetésekre
 # 3. Vágyálom rendszer
 
 Az új alkalmazás az iskolával kapcsolatos kommunikáció színtere lenne.
-A diákok egy helyen tudják megosztani az információkat a taulményaik kapcsán.
+A diákok egy helyen tudják megosztani az információkat a tanulmányaik kapcsán.
 Mivel ez egy külön felület kifejezetten az iskolai feladatokra így átláthatóbbá válik, mert nem zavarnak be egyéb tényezők a beszélgetésbe, nem kell vissza keresgélni. A program használata a diákok számára szorosan a tanulmányokhoz kötődne.
 Bejelentkezéssel lehet használni a programot.
 
@@ -32,11 +32,11 @@ Bejelentkezéssel lehet használni a programot.
 
 # 5. Jelenlegi üzleti folyamatok modellje
 
-A diákok ugyanazt a felületet használják az életük szinte minden területéhez, így a chatben való visszakeresgélés, a tanulmányok szempontjából irreleváns dolgok kiszűrése nehezíti a diákok dolgát amikor kifejezetten az iskolával kapcsolatos dolgokat szeretnék megvítatni, áttekinteni.
+A diákok ugyanazt a felületet használják az életük szinte minden területéhez, így a chatben való visszakeresgélés, a tanulmányok szempontjából irreleváns dolgok kiszűrése nehezíti a diákok dolgát amikor kifejezetten az iskolával kapcsolatos dolgokat szeretnék megvitatni, áttekinteni.
 
 # 6. Igényelt üzleti folyamatok
 
-Az új felület a diákok tanulmányaihoz szorosan kapcsolódó indormációk jelennek meg, zavaró tényezők nélkül.
+Az új felület a diákok tanulmányaihoz szorosan kapcsolódó információk jelennek meg, zavaró tényezők nélkül.
  
 
 
