@@ -11,6 +11,7 @@ import org.slf4j.LoggerFactory;
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.net.SocketException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -64,10 +65,32 @@ public class Server {
                 writers.add(output);
                 //sendNotification(firstMessage);
                 //addToList();
-            } catch (IOException e) {
-                e.printStackTrace();
-            } catch (ClassNotFoundException e) {
-                e.printStackTrace();
+                while (socket.isConnected()) {
+                    Message inputmsg = (Message) input.readObject();
+                    if (inputmsg != null) {
+                        logger.info(inputmsg.getType() + " - " + inputmsg.getName() + ": " + inputmsg.getMsg());
+                        switch (inputmsg.getType()) {
+                            case USER:
+                                //write(inputmsg);
+                                break;
+                            case VOICE:
+                                //write(inputmsg);
+                                break;
+                            case CONNECTED:
+                                //addToList();
+                                break;
+                            case STATUS:
+                                //changeStatus(inputmsg);
+                                break;
+                        }
+                    }
+                }
+            } catch (SocketException socketException) {
+                logger.error("Socket Exception for user " + name);
+            } catch (Exception e){
+                logger.error("Exception in run() method for user: " + name, e);
+            } finally {
+                //closeConnections();
             }
         }
     }
