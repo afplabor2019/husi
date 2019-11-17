@@ -50,6 +50,26 @@ public class Server {
         public Handler(Socket socket) throws IOException {
             this.socket = socket;
         }
+
+        public void run(){
+            logger.info("Attempting to connect a user...");
+            try{
+                is = socket.getInputStream();
+                input = new ObjectInputStream(is);
+                os = socket.getOutputStream();
+                output = new ObjectOutputStream(os);
+
+                Message firstMessage = (Message) input.readObject();
+                //checkDuplicateUsername(firstMessage);
+                writers.add(output);
+                //sendNotification(firstMessage);
+                //addToList();
+            } catch (IOException e) {
+                e.printStackTrace();
+            } catch (ClassNotFoundException e) {
+                e.printStackTrace();
+            }
+        }
     }
 }
 
