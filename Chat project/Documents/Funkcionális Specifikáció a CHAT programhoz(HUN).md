@@ -16,6 +16,7 @@ Nincs hasonló rendszer. Ami van az nem használható tanulásra, csak szórakoz
 
 Egyedi és hasznos program létrehozása. Külölegességéböl adódóan elterjedt kapcsolati háló kialakulása. 
 Amit várunk: diákoknak való megfelelés, építö kritika, pozítív visszajelzések.
+A felületet személyre lehessen szabni.
 
 # 4. Rendszerre vonatkozó törvények, szabványok, ajánlások
 
@@ -66,29 +67,13 @@ Amit várunk: diákoknak való megfelelés, építö kritika, pozítív visszaje
 
 # 9. Használati esetek
 
-Vásárló felület: opcionális: Bejelentkezés/kijelentkezés VAGY regisztráció –> kupon kiválasztása –> kedvezmény részletes leírása –> kupon érvényesíthető –> használt kupon eltűnik
+Egyszerü bejelentkezési felület, mindenkinek ugyan úgy néz ki. 
 
-HR-es felülete: Bejelentkezés/Kijelentkezés –> új kupon hozzáadása (kedvezmény leírása, lejárati dátum) / kupon törlése / statisztikák megtekintése (havi/éves nézet, kuponok népszerűsége)
-
-A HR-es nőci szerencsére rendelkezik némi számítógép használati ismerettel, de a könnyen használhatóság érdekében nem fogjuk túlbonyolítani a webes felületet.
-
-A webes felület használatához bejelentkezésre van szüksége a HR-es nőcinek, akit ezentúl Jucusnak fogok hívni. Kizárólag Jucus, az ő távollétében a helyettese, használhatja a rendszert. 
-
-Ezen az oldalon lehetősége van új kuponokat létrehozni, azokat hozzáadni a jelenleg érvényes kuponok közé, jelenleg érvényes kuponokat eltávolítani a listából. Ezeket a funkciókat a bejelentkezés után megjelnő oldalon tudja elvégezni a megfelelő menüpontok kiválasztásával.
-
-Az új kupon létrehozása menüpontra kattintva Jucus képes információkat megadni az új kuponnal kapcsolatban pl: képet ami illusztrálja azt a dolgot amire kedvezményt kapunk a kupon által, egy dátumot amíg felhasználható az adott kupon, a kedvezmény mértékét.
-
-A kupon törlése menüpontra kattintva van lehetősége Jucusnak a jelenleg érvényben lévő kuponok közül törölni a kívánt kupont.
-
-Ezen a webes felületen van lehetősége Jucusnak az alkalmazás használatával kapcsolatos statisztikát megtekintenie a statisztika menüpontra kattintva.
-
-A mobilos alkalmazás elindítása után a mi kis userünk egyből szembesül a jelenleg felhasználható kuponokkal, amelyek rendelkeznek képi illusztrációval, szöveges leírással ami tartalmazza a kedvezmény mértékét, egy kódot amit az eladó leolvas a kupon használata során. 
-
-Az alkalmazás ezen oldalán lehetőség van megtekinteni a már lejárt kuponokat is.  
+Egyszerü kezelhetöség. Érthetö fe
 
 # 10. Forgatókönyv
 
-- feltöltik a rendszerbe a kupont
-- érvényesítik a kupont
-- a kupon népszerűsége növekszik, a havi statisztikába bekerül
-- a fiókból/ eszközről törlődik a felhasznált kupon (- a lejárt kuponok autómatikusan törlődnek mindenhonnan)
+- Letöltik, az asztali alkalmazást
+- Létrehoznak egy felhasználói fiókot
+- Bejelentkeznek
+- Csetelnek
