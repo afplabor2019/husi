@@ -61,7 +61,7 @@ public class Server {
                 output = new ObjectOutputStream(os);
 
                 Message firstMessage = (Message) input.readObject();
-                //checkDuplicateUsername(firstMessage);
+                checkDuplicateUsername(firstMessage);
                 writers.add(output);
                 //sendNotification(firstMessage);
                 //addToList();
@@ -91,6 +91,25 @@ public class Server {
                 logger.error("Exception in run() method for user: " + name, e);
             } finally {
                 //closeConnections();
+            }
+        }
+
+        private synchronized void checkDuplicateUsername(Message firstMessage) throws DuplicateUsernameException{
+            logger.info(firstMessage.getName() + " is trying to connect");
+            if (!names.containsKey(firstMessage.getName())) {
+                this.name = firstMessage.getName();
+                user = new User();
+                user.setName(firstMessage.getName());
+                user.setStatus(Status.ONLINE);
+                user.setPicture(firstMessage.getPicture());
+
+                users.add(user);
+                names.put(name, user);
+
+                logger.info(name + " has been added to the list");
+            } else {
+                logger.error(firstMessage.getName() + " is already connected");
+                throw new DuplicateUsernameException(firstMessage.getName() + " is already connected");
             }
         }
     }
