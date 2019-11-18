@@ -38,7 +38,7 @@ public class Server {
         }
     }
 
-    private static class Handler extends Thread{
+    private static class Handler extends Thread {
         private String name;
         private Socket socket;
         private Logger logger = LoggerFactory.getLogger(Handler.class);
@@ -52,9 +52,9 @@ public class Server {
             this.socket = socket;
         }
 
-        public void run(){
+        public void run() {
             logger.info("Attempting to connect a user...");
-            try{
+            try {
                 is = socket.getInputStream();
                 input = new ObjectInputStream(is);
                 os = socket.getOutputStream();
@@ -64,7 +64,7 @@ public class Server {
                 checkDuplicateUsername(firstMessage);
                 writers.add(output);
                 sendNotification(firstMessage);
-                //addToList();
+                addToList();
                 while (socket.isConnected()) {
                     Message inputmsg = (Message) input.readObject();
                     if (inputmsg != null) {
@@ -74,7 +74,7 @@ public class Server {
                                 write(inputmsg);
                                 break;
                             case VOICE:
-                                //write(inputmsg);
+                                write(inputmsg);
                                 break;
                             case CONNECTED:
                                 //addToList();
@@ -87,14 +87,14 @@ public class Server {
                 }
             } catch (SocketException socketException) {
                 logger.error("Socket Exception for user " + name);
-            } catch (Exception e){
+            } catch (Exception e) {
                 logger.error("Exception in run() method for user: " + name, e);
             } finally {
                 //closeConnections();
             }
         }
 
-        private synchronized void checkDuplicateUsername(Message firstMessage) throws DuplicateUsernameException{
+        private synchronized void checkDuplicateUsername(Message firstMessage) throws DuplicateUsernameException {
             logger.info(firstMessage.getName() + " is trying to connect");
             if (!names.containsKey(firstMessage.getName())) {
                 this.name = firstMessage.getName();
@@ -119,7 +119,7 @@ public class Server {
             msg.setType(MessageType.NOTIFICATION);
             msg.setName(firstMessage.getName());
             msg.setPicture(firstMessage.getPicture());
-            //write(msg);
+            write(msg);
             return msg;
         }
 
@@ -131,6 +131,17 @@ public class Server {
                 writer.writeObject(msg);
                 writer.reset();
             }
+        }
+
+        private Message addToList() throws IOException {
+            Message msg = new Message();
+            msg.setMsg("Welcome, You have now joined the server! Enjoy chatting!");
+            msg.setType(MessageType.CONNECTED);
+            msg.setName("SERVER");
+            write(msg);
+            return msg;
+        }
+
     }
 }
 
