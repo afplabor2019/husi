@@ -80,7 +80,7 @@ public class Server {
                                 addToList();
                                 break;
                             case STATUS:
-                                //changeStatus(inputmsg);
+                                changeStatus(inputmsg);
                                 break;
                         }
                     }
@@ -152,6 +152,51 @@ public class Server {
             userObj.setStatus(inputmsg.getStatus());
             write(msg);
             return msg;
+        }
+
+        private synchronized void closeConnections(){
+            logger.debug("closeConnections() method Enter");
+            logger.info("HashMap names:" + names.size() + " writers:" + writers.size() + " usersList size:" + users.size());
+            if (name != null) {
+                names.remove(name);
+                logger.info("User: " + name + " has been removed!");
+            }
+            if (user != null){
+                users.remove(user);
+                logger.info("User object: " + user + " has been removed!");
+            }
+            if (output != null){
+                writers.remove(output);
+                logger.info("Writer object: " + user + " has been removed!");
+            }
+            if (is != null){
+                try {
+                    is.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+            if (os != null){
+                try {
+                    os.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+            if (input != null){
+                try {
+                    input.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+            try {
+                //removeFromList();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            logger.info("HashMap names:" + names.size() + " writers:" + writers.size() + " usersList size:" + users.size());
+            logger.debug("closeConnections() method Exit");
         }
 
     }
