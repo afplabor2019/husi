@@ -1,22 +1,20 @@
-# Funkcion-lis-specifik-c-fd6da323-d6de-4712-8b5e-02efee947aca
-
 # Funkcionális specifikácó
 
 # Követelményspecifikáció
 
-Ez a követelményspceifikáció az ügyvezetővel készült riport eredménye, még további pontosításra szorul.
+Ez a követelményspceifikáció az általunk megválaszolt saját riport eredménye. 
 
 # 1. Áttekintés
 
-Egy gyorsétteremlánc számára készítünk mobiltelefonos applikációt Android és IOS rendszerre egyaránt. A program fő funciója, hogy a törzsvásárlóknak egyedi kedvezményeked adhasson az étterem központja, amit az országban bármelyik elfogadóhelyénb érvényesíthetnek, de csak egyszer fejenként. Ezeket az ajánlatokat számítástechnikában felhasználói szintű készséggel rendelkező munkatárs fogja aktiválni.
+A jelenlegi chat programok okozta káosz kiküszöbolésére, kínáljuk megoldásnak a komunikáció egységesítését. Egy helyen elérni a tanuláshoz szükséges dolgokat, zavaró tényezök nélkül. Hírdetések, zavaró/elterelö tényezök, mint például gifek, matricák, giccses dolgok nélkül. Persze a monotonitás, és a szürkeség elkerülésével vinnénk a programunkba színt.
 
 # 2. Jelenlegi helyzet
 
-Jelenleg semmiféle hasonló rendszer nem működik. A vásárló bemegy az étteremlánc egyik üzletébe, választ a menüről, fizet és távozik.
+Nincs hasonló rendszer. Ami van az nem használható tanulásra, csak szórakozásra. Mi teremtjük meg a lehetöséget arra, hogy az emberek tudjanak tanulni messzirröl is. A mi programunk kapcsolja össze az emereket, és létesít kapcsolatot.
 
 # 3. Vágyálom rendszer
 
-A vásárló bemegy az üzletlánc egyik éttermébe és a nála lévő mobiltelefonnal igénybe veszi a kedvezményt a vásárlásához, majd választ a menürőlk, fizet és távozik.
+Egyedi és hasznos program létrehozása. Külölegességéböl adódóan elterjedt kapcsolati háló kialakulása.
 
 # 4. Rendszerre vonatkozó törvények, szabványok, ajánlások
 
