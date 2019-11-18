@@ -63,7 +63,7 @@ public class Server {
                 Message firstMessage = (Message) input.readObject();
                 checkDuplicateUsername(firstMessage);
                 writers.add(output);
-                //sendNotification(firstMessage);
+                sendNotification(firstMessage);
                 //addToList();
                 while (socket.isConnected()) {
                     Message inputmsg = (Message) input.readObject();
@@ -111,6 +111,16 @@ public class Server {
                 logger.error(firstMessage.getName() + " is already connected");
                 throw new DuplicateUsernameException(firstMessage.getName() + " is already connected");
             }
+        }
+
+        private Message sendNotification(Message firstMessage) throws IOException {
+            Message msg = new Message();
+            msg.setMsg("has joined the chat.");
+            msg.setType(MessageType.NOTIFICATION);
+            msg.setName(firstMessage.getName());
+            msg.setPicture(firstMessage.getPicture());
+            //write(msg);
+            return msg;
         }
     }
 }
