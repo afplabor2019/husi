@@ -77,7 +77,7 @@ public class Server {
                                 write(inputmsg);
                                 break;
                             case CONNECTED:
-                                //addToList();
+                                addToList();
                                 break;
                             case STATUS:
                                 //changeStatus(inputmsg);
@@ -138,6 +138,18 @@ public class Server {
             msg.setMsg("Welcome, You have now joined the server! Enjoy chatting!");
             msg.setType(MessageType.CONNECTED);
             msg.setName("SERVER");
+            write(msg);
+            return msg;
+        }
+
+        private Message changeStatus(Message inputmsg) throws IOException{
+            logger.debug(inputmsg.getName() + " has changed status to  " + inputmsg.getStatus());
+            Message msg = new Message();
+            msg.setName(user.getName());
+            msg.setType(MessageType.STATUS);
+            msg.setMsg("");
+            User userObj = names.get(name);
+            userObj.setStatus(inputmsg.getStatus());
             write(msg);
             return msg;
         }
