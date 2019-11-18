@@ -71,7 +71,7 @@ public class Server {
                         logger.info(inputmsg.getType() + " - " + inputmsg.getName() + ": " + inputmsg.getMsg());
                         switch (inputmsg.getType()) {
                             case USER:
-                                //write(inputmsg);
+                                write(inputmsg);
                                 break;
                             case VOICE:
                                 //write(inputmsg);
@@ -122,6 +122,15 @@ public class Server {
             //write(msg);
             return msg;
         }
+
+        private void write(Message msg) throws IOException {
+            for (ObjectOutputStream writer : writers) {
+                msg.setUserlist(names);
+                msg.setUsers(users);
+                msg.setOnlineCount(names.size());
+                writer.writeObject(msg);
+                writer.reset();
+            }
     }
 }
 
