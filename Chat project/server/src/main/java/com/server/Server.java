@@ -90,7 +90,7 @@ public class Server {
             } catch (Exception e) {
                 logger.error("Exception in run() method for user: " + name, e);
             } finally {
-                //closeConnections();
+                closeConnections();
             }
         }
 
@@ -191,13 +191,28 @@ public class Server {
                 }
             }
             try {
-                //removeFromList();
+                removeFromList();
             } catch (Exception e) {
                 e.printStackTrace();
             }
             logger.info("HashMap names:" + names.size() + " writers:" + writers.size() + " usersList size:" + users.size());
             logger.debug("closeConnections() method Exit");
         }
+
+
+        private Message removeFromList() throws IOException {
+            logger.debug("removeFromList() method Enter");
+            Message msg = new Message();
+            msg.setMsg("has left the chat.");
+            msg.setType(MessageType.DISCONNECTED);
+            msg.setName("SERVER");
+            msg.setUserlist(names);
+            write(msg);
+            logger.debug("removeFromList() method Exit");
+            return msg;
+        }
+
+
 
     }
 }
