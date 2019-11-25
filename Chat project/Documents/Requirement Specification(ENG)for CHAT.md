@@ -57,8 +57,7 @@ The customer goes to a restaurant in the chain and takes advantage of the discou
 
 # 7. Requirement List
 
-https://www.notion.so/15839ee244c84b7296cab2838e603246
-
+[Requirement list](https://www.notion.so/67c6af5872ad433f85d5ff384d2307a0?v=b0ec53b48bf8483d954e16908574915b)
 # 8. Képernyőterv
 
 ![login](C:\Users\gengj\OneDrive\Képek\login.png)
