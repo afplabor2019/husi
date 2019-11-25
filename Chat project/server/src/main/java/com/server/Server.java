@@ -211,9 +211,6 @@ public class Server {
             logger.debug("removeFromList() method Exit");
             return msg;
         }
-
-
-
     }
 }
 
