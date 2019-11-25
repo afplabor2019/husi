@@ -50,6 +50,10 @@ https://www.notion.so/71f9454ff2d64f70ae11c01a468fa436
 
 # 8. Veiw
 
-https://github.com/Moss4t/husi/blob/master/Untitled-7fb3c45d-d0f4-433a-ab22-532100a3ce2b.png?raw=true
+![login](C:\Users\gengj\OneDrive\Képek\login.png)
+
+
+
+![chatWindow](C:\Users\gengj\OneDrive\Képek\chatWindow.png)
 
 The application looks like this.

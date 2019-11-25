@@ -90,5 +90,5 @@ public class Message implements Serializable {
     public void setVoiceMsg(byte[] voiceMsg) {
         this.voiceMsg = voiceMsg;
     }
-    
+
 }

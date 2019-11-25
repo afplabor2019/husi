@@ -61,9 +61,9 @@ A felületet személyre lehessen szabni.
 
 # 8. Képernyőterv
 
-![](Untitled-5e04754f-e0d3-4a67-8712-fe9abfa1aeda.png)
+![login](C:\Users\gengj\OneDrive\Képek\login.png)
 
-**Az alkalmazás kezdőképernyője**
+![chatWindow](C:\Users\gengj\OneDrive\Képek\chatWindow.png)
 
 # 9. Használati esetek
 

@@ -37,6 +37,12 @@ A diákok ugyanazt a felületet használják az életük szinte minden terület�
 # 6. Igényelt üzleti folyamatok
 
 Az új felület a diákok tanulmányaihoz szorosan kapcsolódó információk jelennek meg, zavaró tényezők nélkül.
- 
+
+# 7. Képernyőterv
+
+![login](C:\Users\gengj\OneDrive\Képek\login.png)
+
+![chatWindow](C:\Users\gengj\OneDrive\Képek\chatWindow.png)
+
 
 
