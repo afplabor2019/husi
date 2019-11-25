@@ -1,4 +1,4 @@
-package com.client;
+package com.client.chatwindow;
 
 import com.sun.org.slf4j.internal.Logger;
 import com.sun.org.slf4j.internal.LoggerFactory;
