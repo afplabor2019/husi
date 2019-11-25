@@ -44,5 +44,8 @@ Az új felület a diákok tanulmányaihoz szorosan kapcsolódó információk je
 
 ![chatWindow](C:\Users\gengj\OneDrive\Képek\chatWindow.png)
 
+# 8. Követelménylista
+
+[Követelménylista](https://www.notion.so/67c6af5872ad433f85d5ff384d2307a0?v=b0ec53b48bf8483d954e16908574915b)
 
 
