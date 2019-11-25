@@ -55,9 +55,9 @@ A felületet személyre lehessen szabni.
 [Felhasználó] -> (munka segítö táblázaatot hoz létre) -> (felosztja a felhasználók közt a folyamatokat) -> (határidöket ad a feladatokhoz) -> (részletes leírást ad hozzá) 
 ---Felhasználáshoz jogköröket is meg lehet adni. Pl.: emberek törléséhez egy-egy csoportból, csak a tanárnak legyen lehetösége, de a feladatok kiosztásához mindenkinek joga legyen. Utóbbihoz tartozna egy tájékoztató üzenet, arról hogy milyen események történtek.---
 
-# 7. Követelmény Lista
+# 7. Követelménylista
 
-[Untitled](https://www.notion.so/71f9454ff2d64f70ae11c01a468fa436)
+[Követelménylista](https://www.notion.so/67c6af5872ad433f85d5ff384d2307a0?v=b0ec53b48bf8483d954e16908574915b)
 
 # 8. Képernyőterv
 
