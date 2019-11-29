@@ -30,6 +30,10 @@ Bejelentkezéssel lehet használni a programot.
 - AZ EURÓPAI PARLAMENT ÉS A TANÁCS (EU) 2016/679 RENDELETE (2016. április 27.) a természetes személyeknek a személyes adatok kezelése tekintetében történő védelméről és az ilyen adatok szabad áramlásáról, valamint a 95/46/EK rendelet hatályon kívül helyezéséről (általános adatvédelmi rendelet)
 - évi CXII. törvény az információs önrendelkezési jogról és az információszabadságról ( Infotv.)
 
+**4.3 Felhasználálási feltételek:
+
+- A számítógépen lévő fájlokhoz, számítógép eszközeihez (pl.: kamera, mikrofon) való hozzáférést biztosítani kell. Ezeket bizalmasan kezeljük, harmadik félhez nem juttatjuk el, semmilyen formában, másnak hozzáférést nem biztosítunk.
+
 # 5. Jelenlegi üzleti folyamatok modellje
 
 A diákok ugyanazt a felületet használják az életük szinte minden területéhez, így a chatben való visszakeresgélés, a tanulmányok szempontjából irreleváns dolgok kiszűrése nehezíti a diákok dolgát amikor kifejezetten az iskolával kapcsolatos dolgokat szeretnék megvitatni, áttekinteni.
