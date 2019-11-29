@@ -5,23 +5,27 @@ This requirement specification is the result of a report with the CEO and needs 
 
 # 1. Overview
 
-We are developing a mobile application for a fast food chain for both Android and IOS. The main function of the program is to provide loyal customers with unique discounts at the restaurant center, which can be enforced at any of the country's outlets, but only once per person. These offers will be activated by a user-level IT professional.
+We create a chat program for students, specifically to discuss school-related topics.
+They can talk about their homework, they can help each other understand and complement what they learned at school.
+Login is required to use this program.
+There is no possibility to attach files, it is mainly for text messages.
 
 
 # 2. Current situation
 
-Currently, no similar system is working. The shopper goes into one of the chain stores, chooses the menu, pays and leaves. The choice can be time consuming, while the right products are selected with a combination of current discounts. Incompatible discounts can lead to misunderstandings, which can mean extra time at the checkout.
+Currently the students use different chat applications (e.g. messenger), there is no uniformly used application.
+Students use the same application for private discussions, school assignments, different projects,
+which makes the different informations less transparent.
 
 
 # 3. Target
 
-The customer goes to a restaurant in the chain and takes advantage of the discount on his mobile phone, then selects the menu, pays and leaves.
-
-- The time spent at the checkout is thus considerably shortened.
-- Shoppers can find out about discounts immediately before they arrive at the restaurant.
-- Using the right coupons also simplifies the service for larger companies and makes their orders more transparent.
-- The simplicity and simplicity of the application interface ensures that everyone can shop smoothly, whether they are regular or formal guests.
-- Later, using the statistics you have created, you can better tailor your bids to customer needs, further promoting the app.
+The new application would be the scene of school-related communication.
+Students can share information about their studies in one place.
+Because this is a separate interface specifically designed for school assignments,
+it becomes more transparent so other factors do not interfere with the conversation, therefore there is no need to search back for informations.
+For the students, using the program would be closely linked to their studies.
+Login is required to use this program.
 
 
 # 4. System laws, standards, recommendations
@@ -36,24 +40,15 @@ The customer goes to a restaurant in the chain and takes advantage of the discou
 
 # 5. Model of current business processes
 
-[costumer] » makes food choice » [employee]
-                                 [costumer] » pays » [employee]
-                                                     [employee] » servs » [costumer]
-                                                     
-- Buyer chooses food: Only at the restaurant are you confronted with the current promotions, or knowing these may re-think your order, which can mean extra time at checkout
-- The restaurant employee shoots the products: in the case of a larger company, misunderstandings can easily be misunderstood (9 cheeseburgers in total? No, only 7 because Kati said John's dose, but John said his own dose, not knowing they were already ordered) these are time consuming repairs.
+Students use the same interface for almost every area of their lives,
+therefoe searching back on the chat and filtering out irrelevant information makes it harder for students
+to discuss and review things which are specifically school-related.
+
 
 # 6. Modell of requested business process
 
-[costumer] » makes food choice » [employee]
-                                 [costumer] » uses coupon » [employee ]
-                                                            [employee] » discount » [costumer]
-                                                                                    [costumer] » pays » [employee]
-                                                                                                        [employee] » serves » [costumer]
-                                                                                                        
-- Customers can arrive at the restaurant knowing the current offers, planning their order with this in mind. At the cashier, the time spent with thinking and variation is significantly shortened.
-- The menus on the coupons make the order more transparent and the risk of misunderstanding is minimized, even for large companies.
-- So we save time and the order is simplified for both the shopper and the restaurant staff.
+The new interface displays information closely related to students' studies, without distractions.
+
 
 # 7. Requirement List
 
