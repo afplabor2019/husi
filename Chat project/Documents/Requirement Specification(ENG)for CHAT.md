@@ -37,6 +37,10 @@ Login is required to use this program.
 - REGULATION (EU) 2016/679 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data and repealing Regulation (EC) No 95/46 privacy policy)
 - year CXII. Law on Freedom of Information and Freedom of Information Act (Infotv.)
 
+**4.3 Terms of Use:**
+Access to files, computer devices (eg camera, microphone) on the computer.
+They will be kept confidential, will not be passed on to third parties, and will not be made available to anyone else in any form.
+
 
 # 5. Model of current business processes
 
