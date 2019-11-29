@@ -38,7 +38,7 @@ Login is required to use this program.
 - year CXII. Law on Freedom of Information and Freedom of Information Act (Infotv.)
 
 **4.3 Terms of Use:**
-Access to files, computer devices (eg camera, microphone) on the computer.
+- Access to files, computer devices (eg camera, microphone) on the computer.
 They will be kept confidential, will not be passed on to third parties, and will not be made available to anyone else in any form.
 
 
