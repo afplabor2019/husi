@@ -3,6 +3,7 @@ package com.client.login;
 import com.client.chatwindow.ChatController;
 import com.client.chatwindow.Listener;
 import com.client.login.MainLauncher;
+import com.client.util.ResizeHelper;
 import javafx.animation.KeyFrame;
 import javafx.animation.KeyValue;
 import javafx.animation.Timeline;
