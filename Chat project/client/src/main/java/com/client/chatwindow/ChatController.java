@@ -4,6 +4,8 @@ package com.client.chatwindow;
 
 import com.messages.Message;
 import com.messages.MessageType;
+import com.messages.bubble.BubbleSpec;
+import com.messages.bubble.BubbledLabel;
 import javafx.concurrent.Task;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
