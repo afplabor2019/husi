@@ -23,7 +23,7 @@ public class Message implements Serializable {
         return voiceMsg;
     }
 
-    private String getPicture(){
+    public String getPicture(){
         return picture;
     }
 

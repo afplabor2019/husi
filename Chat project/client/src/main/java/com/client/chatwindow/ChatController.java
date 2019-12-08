@@ -4,12 +4,15 @@ package com.client.chatwindow;
 
 import com.client.login.MainLauncher;
 import com.client.util.VoicePlayback;
+import com.client.util.VoiceRecorder;
+import com.client.util.VoiceUtil;
 import com.messages.Message;
 import com.messages.MessageType;
 import com.messages.Status;
 import com.messages.User;
 import com.messages.bubble.BubbleSpec;
 import com.messages.bubble.BubbledLabel;
+import com.traynotifications.animations.AnimationType;
 import com.traynotifications.notification.TrayNotification;
 import javafx.application.Platform;
 import javafx.beans.value.ChangeListener;
@@ -70,6 +73,23 @@ public class ChatController implements Initializable {
         if (!messageBox.getText().isEmpty()) {
             Listener.send(msg);
             messageBox.clear();
+        }
+    }
+
+    public void recordVoiceMessage() throws IOException {
+        if (VoiceUtil.isRecording()) {
+            Platform.runLater(() -> {
+                        microphoneImageView.setImage(microphoneInactiveImage);
+                    }
+            );
+            VoiceUtil.setRecording(false);
+        } else {
+            Platform.runLater(() -> {
+                        microphoneImageView.setImage(microphoneActiveImage);
+
+                    }
+            );
+            VoiceRecorder.captureAudio();
         }
     }
 
