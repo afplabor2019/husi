@@ -17,16 +17,15 @@
 <h3><strong>3) Üzleti folyamatok modellje</strong></h3>
   
 <h3><strong>4) Követelmények</strong></h3>
-  
+  <a href="https://www.notion.so/67c6af5872ad433f85d5ff384d2307a0?v=b0ec53b48bf8483d954e16908574915b">Követelménylista</a>
 <h3><strong>5) Funkcionális terv</strong></h3>
   
 <h3><strong>6) Fizikai környeze</strong></h3>
-  
+  <h4>Fejlesztési nyelv: Java</h4> 
 <h3><strong>7) Absztrakt domain modell</strong></h3>
   
 <h3><strong>8) Architekturális terv</strong></h3>
   
-<h3><strong>9) Adatbázis terv</strong></h3>
+<h3><strong>9) Implementációs terv</strong></h3>
 
-<h3><strong>10) Implementációs terv</strong></h3>
   
