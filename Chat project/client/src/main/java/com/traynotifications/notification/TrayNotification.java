@@ -1,5 +1,9 @@
 package com.traynotifications.notification;
 
+import com.traynotifications.animations.AnimationProvider;
+import com.traynotifications.animations.AnimationType;
+import com.traynotifications.animations.TrayAnimation;
+import com.traynotifications.models.CustomStage;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
