@@ -17,6 +17,8 @@ A program szerver és kliens részből is áll, a szerveren tárolva vannak az �
   
   <a href="https://github.com/afplabor2019/husi/blob/master/Chat%20project/Documents/%C3%BCtemterv.md">Ütemterv</a>
 <h3><strong>3) Üzleti folyamatok modellje</strong></h3>
+  <p>A diákok eddig csak személyesen tudtak kommunikálni a program segítségével, az információcserét meg tudják tenni az  általunk fejlesztett alkalmazás segítségével.</p>
+  <p>A kommunikációs folyamat a programon keresztül úgy történik, hogy a bejelentkezési képernyőn megadnak egy felhasználó nevet, illetve a szerverrel kapcsolatos információkat, ez után a login gombra kattintva az alkalmazás fő ablaka jelenik meg, ami tartalmaz egy textboxot, ahová a felhasználó üzenetét tudja begépelni, majd az elküld gombra kattintva a szerveren jelen levő többi felhasználó látja az elküldött üzenetet.</p>
   
 <h3><strong>4) Követelmények</strong></h3>
   <a href="https://www.notion.so/67c6af5872ad433f85d5ff384d2307a0?v=b0ec53b48bf8483d954e16908574915b">Követelménylista</a>
