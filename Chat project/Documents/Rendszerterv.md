@@ -2,8 +2,10 @@
 
 <h3><strong>1) A Rendszer célja</strong></h3>
 
-  Diákok számára készítünk chat programot, kifejezetten az iskolával kapcsolatos témák megvitatására. Megtudják beszélni a házi feladatot, segíteni tudnak egymásnak az anyag megértésében, pótlásában. Bejelentkezés szükséges a program használatához. Fájlok csatolására nincsen lehetőség, elsősorban a szöveges üzenetek küldése biztosított. 
-  A program két ember közötti beszélgetést szimulálja. A személyek jelenlegi állapotát is képes jelezni, hogy jelen esetben kapcsolódva van e a szerverhez vagy sem, illetve hogy AFK(billentyűzettől távol) van e. A program szerver és kliens részből is áll, a szerveren tárolva vannak az üzenetek, míg a kliens arra használandó hogy egyes felhasználók kapcsolatba tudjanak lépni másokkal.
+  Diákok számára készítünk chat programot, kifejezetten az iskolával kapcsolatos témák megvitatására. Megtudják beszélni a házi feladatot, segíteni tudnak egymásnak az anyag megértésében, pótlásában. Az új alkalmazás tehát az iskolával kapcsolatos kommunikáció színtere lenne. A diákok egy helyen tudják megosztani az információkat a tanulmányaik kapcsán. Mivel ez egy külön felület kifejezetten az iskolai feladatokra így átláthatóbbá válik, mert nem zavarnak be egyéb tényezők a beszélgetésbe, nem kell vissza keresgélni. A program használata a diákok számára szorosan a tanulmányokhoz kötődne. Bejelentkezés szükséges a program használatához. Fájlok csatolására nincsen lehetőség, elsősorban a szöveges üzenetek küldése biztosított.
+A felhasználóknak mindig van egy aktuális státuszuk, ez lehet: ONLINE, AWAY és BUSY. Ezt ők maguk állíthatják be.
+A felhasználóknak lehetőségük van profilképet használatára is, de ez nem kötelező. Csak kényelmi funkció, a program működését nem befolyásolja.
+A program szerver és kliens részből is áll, a szerveren tárolva vannak az üzenetek, míg a kliens arra használandó hogy egyes felhasználók kapcsolatba tudjanak lépni másokkal.
   
 <h3><strong>2) Projekt terv</strong></h3>
   <h4>Projektszerepkörök:</h4>
