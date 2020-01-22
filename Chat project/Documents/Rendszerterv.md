@@ -32,4 +32,7 @@ A program szerver és kliens részből is áll, a szerveren tárolva vannak az �
   
 <h3><strong>9) Implementációs terv</strong></h3>
 
+<h3><strong>10) Telepítési terv</strong></h3>
+  <p>Supported platforms: Mac OS,Linux,Windows</p>
+  <p>Requirments to run the software: Java Runtime Evironment installed on the pc</p>
   
