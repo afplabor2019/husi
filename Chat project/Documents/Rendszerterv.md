@@ -41,7 +41,7 @@ A program szerver és kliens részből is áll, a szerveren tárolva vannak az �
 
 ![Package models](https://github.com/afplabor2019/husi/blob/master/Chat%20project/Documents/class%20diagram/Package%20models.png)
 
-![Package util](C:\Users\gengj\IdeaProjects\husi\Chat project\Documents\class diagram\Package util.png)
+![Package util](https://github.com/afplabor2019/husi/blob/master/Chat%20project/Documents/class%20diagram/Package%20util.png)
 
 ![Server](https://github.com/afplabor2019/husi/blob/master/Chat%20project/Documents/class%20diagram/Server.png)
 
