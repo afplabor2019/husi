@@ -29,21 +29,21 @@ A program szerver és kliens részből is áll, a szerveren tárolva vannak az �
 
 <h3><strong>9) Implementációs terv</strong></h3>
 
-​		![Package animations](C:\Users\gengj\IdeaProjects\husi\Chat project\Documents\class diagram\Package animations.png)
+​		![Package animations](https://github.com/afplabor2019/husi/blob/master/Chat%20project/Documents/class%20diagram/Package%20animations.png)
 
-![Package bubble](C:\Users\gengj\IdeaProjects\husi\Chat project\Documents\class diagram\Package bubble.png)
+![Package bubble](https://github.com/afplabor2019/husi/blob/master/Chat%20project/Documents/class%20diagram/Package%20bubble.png)
 
-![Package chatwindow](C:\Users\gengj\IdeaProjects\husi\Chat project\Documents\class diagram\Package chatwindow.png)
+![Package chatwindow](https://github.com/afplabor2019/husi/blob/master/Chat%20project/Documents/class%20diagram/Package%20chatwindow.png)
 
-![Package login](C:\Users\gengj\IdeaProjects\husi\Chat project\Documents\class diagram\Package login.png)
+![Package login](https://github.com/afplabor2019/husi/blob/master/Chat%20project/Documents/class%20diagram/Package%20login.png)
 
-![Package messages](C:\Users\gengj\IdeaProjects\husi\Chat project\Documents\class diagram\Package messages.png)
+![Package messages](https://github.com/afplabor2019/husi/blob/master/Chat%20project/Documents/class%20diagram/Package%20messages.png)
 
-![Package models](C:\Users\gengj\IdeaProjects\husi\Chat project\Documents\class diagram\Package models.png)
+![Package models](https://github.com/afplabor2019/husi/blob/master/Chat%20project/Documents/class%20diagram/Package%20models.png)
 
 ![Package util](C:\Users\gengj\IdeaProjects\husi\Chat project\Documents\class diagram\Package util.png)
 
-![Server](C:\Users\gengj\IdeaProjects\husi\Chat project\Documents\class diagram\Server.png)
+![Server](https://github.com/afplabor2019/husi/blob/master/Chat%20project/Documents/class%20diagram/Server.png)
 
 
 
