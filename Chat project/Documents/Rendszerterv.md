@@ -87,8 +87,61 @@ A későbbi verziókban lehet szó a felhasználók eltárolásáról, valamint 
 
 
 
-<h3><string>9) Telepítési terv</strong></h3>
+<h3><strong>10) Telepítési terv</strong></h3>
 
    * Supported platforms: Mac OS,Linux,Windows
    * Requirments to run the software: Java Runtime Evironment installed on the pc
 
+
+<h3><strong>11) Tesztterv</strong></h3>
+<h4>Fekete dobozos tesztelési technikával:</h4>
+<table>
+  <tr>
+    <td><b><p>A teszt tárgya</p></b></td>
+    <td><b><p>Teszteset</p></b></td>
+    <td><b><p>Kilépési feltétel</p></b></td>
+    <td><b><p>Eredmény</p></b></td>
+  </tr>
+  <tr>
+     <td><p>Csatlakozás a szerverre, belépés a chat csoportba.</p></td>
+    <td><p>Felhasználónév megadása, port és hostname megadása.</p></td>
+    <td><p>A kezdőképernyőről a belépünk a chat csoportba.</p></td>
+    <td><p>Sikeres</p></td>
+  </tr>
+  <tr>
+    <td><p>Hibás szerver adatok esete.</p></td>
+    <td><p>Felhasználónév, rossz port és/vagy hostname megadása.</p></td>
+    <td><p>A kezdőképernyőn maradunk, sikertelen kapcsolódás.</p></td>
+    <td><p>-</p></td>
+  </tr>
+  <tr>
+    <td><p>Fénykép betöltése profilképnek.</p></td>
+    <td><p>Legördülő menüvel fénykép választása a profilhoz + felhasználónév, hostname, port megadása.</p></td>
+    <td><p>A kép már a kezdőképernyőn megjelenik az erre kijelölt helyen, a csoportba lépve továbbra is látható marad.</p></td>
+    <td><p>-</p></td>
+  </tr>
+  <tr>
+    <td><p>Nincs betöltve fénykép.</p></td>
+    <td><p>Kapcsolódás előtt nem adunk meg fényképet, Deafault-on hagyjuk.</p></td>
+    <td><p>A Default kép van a kezdőképernyőn és a csoportban is az erre kijelölt helyeken.</p></td>
+    <td><p>-</p></td>
+  </tr>
+  <tr>
+    <td><p>Státusz állítása.</p></td>
+    <td><p>A kapcsolódás után legördülő menüvel kiválasztjuk a státuszt.</p></td>
+    <td><p>A kiválasztott státusznak megfelelő jelzés van a felhasználó neve mellett, mindenki számára így jelenik meg.</p></td>
+    <td><p>-</p></td>
+  </tr>
+  <tr>
+    <td><p>Státusz Default.</p></td>
+    <td><p>Nem állítunk semmit a státuszon a kapcsolódás után.</p></td>
+    <td><p>A státusz online állapotot mutat, mindenki számára látható módon.</p></td>
+    <td><p>-</p></td>
+  </tr>
+  <tr>
+    <td><p>Üzenet küldése.</p></td>
+    <td><p>A sikeres kapcsolódás után a megfelelő mezőt kitöltjük, majd Send gombbal elküldjük.</p></td>
+    <td><p>Az elküldött üzenet megjelenik a csoportban, másik felhasználóknak is látható módon.</p></td>
+    <td><p>Az üzenet nem jelent meg képernyőn, de a szerver jelezte, hogy érzékelte.</p></td>
+  </tr>
+ </table>
