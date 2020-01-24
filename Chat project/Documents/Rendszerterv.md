@@ -112,7 +112,7 @@ A későbbi verziókban lehet szó a felhasználók eltárolásáról, valamint 
     <td><p>Hibás szerver adatok esete.</p></td>
     <td><p>Felhasználónév, rossz port és/vagy hostname megadása.</p></td>
     <td><p>A kezdőképernyőn maradunk, sikertelen kapcsolódás.</p></td>
-    <td><p>Sikertelen csatlakozás, nem enged be a csoport oldalra.</p></td>
+    <td><p>Sikeres</p></td>
   </tr>
   <tr>
     <td><p>Fénykép betöltése profilképnek.</p></td>
