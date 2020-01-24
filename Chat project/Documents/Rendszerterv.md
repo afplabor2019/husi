@@ -94,7 +94,7 @@ A későbbi verziókban lehet szó a felhasználók eltárolásáról, valamint 
 
 
 <h3><strong>11) Tesztterv</strong></h3>
-<h4>Fekete dobozos tesztelési technikával:</h4>
+<h4>11.1) Fekete dobozos tesztelési technikával:</h4>
 <table>
   <tr>
     <td><b><p>A teszt tárgya</p></b></td>
@@ -143,5 +143,49 @@ A későbbi verziókban lehet szó a felhasználók eltárolásáról, valamint 
     <td><p>A sikeres kapcsolódás után a megfelelő mezőt kitöltjük, majd Send gombbal elküldjük.</p></td>
     <td><p>Az elküldött üzenet megjelenik a csoportban, másik felhasználóknak is látható módon.</p></td>
     <td><p>Az üzenet nem jelent meg képernyőn, de a szerver jelezte, hogy érzékelte.</p></td>
+  </tr>
+ </table>
+
+
+<h4>11.2) Fehér dobozos tesztelés az adatbázisra:</h4>
+  
+  <table>
+   <tr>
+    <strong>
+     <td>Célja:</td>
+    </strong>
+     <td>Felhasznalo tábla létrehozása</td>
+     <td>Max 100 karakteres becenév adható meg</td>
+     <td>Képfájlok tárolására lehetőség</td>
+     <td>Rövid leírásra lehetőség <br>250 karakter</td>
+     <td>Elsődleges, és idegen kulcsok beállítása</td>
+  </tr>
+  <tr>
+    <strong>
+      <td>Eredménye:</td>
+    </strong>
+     <td>Sikeres</td>
+     <td>Sikeres</td>
+     <td>Sikeres</td>
+     <td>Sikeres</td>
+     <td>Sikeres</td>
+  </tr>
+ </table>
+ <table>
+  <tr>
+    <strong>
+     <td>Célja:</td>
+    </strong>
+     <td>Beszelgetesek tábla létrehozása</td>
+     <td>Csoportoknak adható név 100 karakter hosszan</td>
+     <td>Elsődleges, és idegen kulcsok beállítása</td>
+  </tr>
+  <tr>
+    <strong>
+      <td>Eredménye:</td>
+    </strong>
+     <td>Sikeres</td>
+     <td>Sikeres</td>
+     <td>Sikeres</td>
   </tr>
  </table>
