@@ -1,0 +1,3 @@
+Ez a kérdőív a chatprogram felhasználói számára készült.
+Ez által visszajelzést tudnak küldeni, hogy milyen problémákat észleltek a használat során, illetve, hogy milyen funkciókat látnának még szívesen.
+Az elküldött kérdőíveket phpMyAdmin adatbázis tárolja.
