@@ -21,6 +21,14 @@ A program szerver és kliens részből is áll, a szerveren tárolva vannak az �
 <h3><strong>4) Követelmények</strong></h3>
   <a href="https://www.notion.so/67c6af5872ad433f85d5ff384d2307a0?v=b0ec53b48bf8483d954e16908574915b">Követelménylista</a>
 <h3><strong>5) Funkcionális terv</strong></h3>
+<h4>Rendszerszeplők:</h4>
+Felhasználók:
+Minden felhasználónak lehet egy általa választott felhasználó neve, valamint egy profilképe. A felhasználó név megadása   kötelező, a profilkép esetében van lehetőség a Default kép használatára, ami egy előre beállított kép. Ez a kép minden felhasználónak   azonos, ha nem választ a felhasználó saját képet automatikusan ez kerül majd beállításra.A chat program használatához meg kell adni a szerver adatait (hostname és port szám), ez a felhasználó feladata a kapcsolat létrehozása előtt. Ha helyesek az adatok a felhasználó üzeneteket küldhet és fogadhat. A felhasználó beállíthatja a saját státuszát egy legördülő listán az előre deffiniált státuszokból (ONLINE, BUSY, AWAY). <br>
+Mivel a felhasználó manuálisan beállítja a kapcsolat létrehozásához szükséges részeket, így nincs szükség más kitüntetett szerepkörre a program használatához.<br>
+
+![Rendszerhasználati esetek és lefutásaik]()
+
+
 <h3><strong>6) Fizikai környeze</strong></h3>
   <h4>Fejlesztési nyelv: Java</h4>
   <h4>Használt framework: JavaFX</h4> 
