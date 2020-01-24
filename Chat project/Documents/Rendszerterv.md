@@ -5,11 +5,13 @@ A felhasználóknak mindig van egy aktuális státuszuk, ez lehet: ONLINE, AWAY 
 A felhasználóknak lehetőségük van profilképet használatára is, de ez nem kötelező. Csak kényelmi funkció, a program működését nem befolyásolja.
 A program szerver és kliens részből is áll, a szerveren tárolva vannak az üzenetek, míg a kliens arra használandó hogy egyes felhasználók kapcsolatba tudjanak lépni másokkal.
 
-<h3><strong>2) Projekt terv</h3>
-  <p>Projektszerepkörök:</strong></p>
-
-  <p>Menedzsment: tanár<br>
-  Csapat: Offenbächer Géza, Urbán Regina, Kuborcik Ádám, Geng Julián, Mohai Ferenc </p>  
+<h3><strong>2) Projekt terv</strong></h3>
+  <h4>Projektszerepkörök:</h4>
+  <ul>
+  <li>Project Manager</li>
+  <li>Fejlesztő</li>
+  <li>Tervező</li>
+  </ul>
 
   <a href="https://github.com/afplabor2019/husi/blob/master/Chat%20project/Documents/%C3%BCtemterv.md">Ütemterv</a>
 <h3><strong>3) Üzleti folyamatok modellje</strong></h3>
@@ -18,17 +20,6 @@ A program szerver és kliens részből is áll, a szerveren tárolva vannak az �
 
 <h3><strong>4) Követelmények</strong></h3>
   <a href="https://www.notion.so/67c6af5872ad433f85d5ff384d2307a0?v=b0ec53b48bf8483d954e16908574915b">Követelménylista</a>
-  <p>
-  <h4>Rendszerre vonatkozó törvények, szabványok, ajánlások</4>
-    <h5>4.1. Szerzői jogszabályok:</h5>
-      A törvény szerint az eredeti számítógépes program az azt létrehozó személy vagy vállalat szellemi tulajdona. A számítógépes programokat szerzői jogi törvény védi, amely kimondja, hogy az ilyen művek engedély nélküli másolása törvénybe ütköző cselekedet. (Magyarországon a szerzői jogokat az 1999. évi LXXVI. törvény szabályozza)
-Licenszerződés(amennyiben van)
-<h5>4.2. Adatvédelmi jogszabályok:</h5>
-AZ EURÓPAI PARLAMENT ÉS A TANÁCS (EU) 2016/679 RENDELETE (2016. április 27.) a természetes személyeknek a személyes adatok kezelése tekintetében történő védelméről és az ilyen adatok szabad áramlásáról, valamint a 95/46/EK rendelet hatályon kívül helyezéséről (általános adatvédelmi rendelet)
-évi CXII. törvény az információs önrendelkezési jogról és az információszabadságról ( Infotv.)
-  <h5>4.3 Felhasználálási feltételek:</h5>
-A számítógépen lévő fájlokhoz, számítógép eszközeihez (pl.: kamera, mikrofon) való hozzáférést biztosítani kell. Ezeket bizalmasan kezeljük, harmadik félhez nem juttatjuk el, semmilyen formában, másnak hozzáférést nem biztosítunk.</p>
-  
 <h3><strong>5) Funkcionális terv</strong></h3>
 <h4>Rendszerszeplők:</h4>
 Felhasználók:
@@ -58,11 +49,8 @@ ChatCsoport.5: A gomb lenyomására a begépelt üzenet elküldésre kerül, a t
 
 
 <h3><strong>6) Fizikai környeze</strong></h3>
-  <p>
-  Fejlesztési nyelv: Java<br>
-  Használt framework: JavaFX<br>
-
-Az alkalmazás bármilyen operációs rendszeren képes lesz elfutni, mivel egy webes alkalmazásról van szó, az általunk készített kódot a különböző böngészők képesek értelmezni. Ebből adódóan nem igényel hatalmas erőforrásokat, egy kétmagos processzor, valamint 2-4GB memóriával (RAM) rendelkező számitógép/laptop képes hiba nélkül futtatni az alkalmazást.</p> 
+  <h4>Fejlesztési nyelv: Java</h4>
+  <h4>Használt framework: JavaFX</h4> 
 <h3><strong>7) Absztrakt domain modell</strong></h3>
 <h4>Státusz:</h4> A felhasználó megadhatja, hogy elérhetőnek jelezze-e ki a program a többi felhasználó felé. Az ONLINE, AWAY és BUSY lehetőségek közül választhat.
 <h4>Üzenet típusok:</h4> A különböző üzenetek más-más kategóriába tartoznak: CONNECTED, DISCONNECTED, STATUS üzenetek, a USER-ek üzenetei, a SERVER által küldött üzenetek, NOTIFICATION, és VOICE, azaz hang üzenetek.<br>
@@ -99,8 +87,61 @@ A későbbi verziókban lehet szó a felhasználók eltárolásáról, valamint 
 
 
 
-<h3><string>9) Telepítési terv</strong></h3>
+<h3><strong>10) Telepítési terv</strong></h3>
 
    * Supported platforms: Mac OS,Linux,Windows
    * Requirments to run the software: Java Runtime Evironment installed on the pc
 
+
+<h3><strong>11) Tesztterv</strong></h3>
+<h4>Fekete dobozos tesztelési technikával:</h4>
+<table>
+  <tr>
+    <td><b><p>A teszt tárgya</p></b></td>
+    <td><b><p>Teszteset</p></b></td>
+    <td><b><p>Kilépési feltétel</p></b></td>
+    <td><b><p>Eredmény</p></b></td>
+  </tr>
+  <tr>
+     <td><p>Csatlakozás a szerverre, belépés a chat csoportba.</p></td>
+    <td><p>Felhasználónév megadása, port és hostname megadása.</p></td>
+    <td><p>A kezdőképernyőről a belépünk a chat csoportba.</p></td>
+    <td><p>Sikeres</p></td>
+  </tr>
+  <tr>
+    <td><p>Hibás szerver adatok esete.</p></td>
+    <td><p>Felhasználónév, rossz port és/vagy hostname megadása.</p></td>
+    <td><p>A kezdőképernyőn maradunk, sikertelen kapcsolódás.</p></td>
+    <td><p>Sikeres</p></td>
+  </tr>
+  <tr>
+    <td><p>Fénykép betöltése profilképnek.</p></td>
+    <td><p>Legördülő menüvel fénykép választása a profilhoz + felhasználónév, hostname, port megadása.</p></td>
+    <td><p>A kép már a kezdőképernyőn megjelenik az erre kijelölt helyen, a csoportba lépve továbbra is látható marad.</p></td>
+    <td><p>Sikeres</p></td>
+  </tr>
+  <tr>
+    <td><p>Nincs betöltve fénykép.</p></td>
+    <td><p>Kapcsolódás előtt nem adunk meg fényképet, Deafault-on hagyjuk.</p></td>
+    <td><p>A Default kép van a kezdőképernyőn és a csoportban is az erre kijelölt helyeken.</p></td>
+    <td><p>Sikeres</p></td>
+  </tr>
+  <tr>
+    <td><p>Státusz állítása.</p></td>
+    <td><p>A kapcsolódás után legördülő menüvel kiválasztjuk a státuszt.</p></td>
+    <td><p>A kiválasztott státusznak megfelelő jelzés van a felhasználó neve mellett, mindenki számára így jelenik meg.</p></td>
+    <td><p>Sikeres</p></td>
+  </tr>
+  <tr>
+    <td><p>Státusz Default.</p></td>
+    <td><p>Nem állítunk semmit a státuszon a kapcsolódás után.</p></td>
+    <td><p>A státusz online állapotot mutat, mindenki számára látható módon.</p></td>
+    <td><p>Sikeres</p></td>
+  </tr>
+  <tr>
+    <td><p>Üzenet küldése.</p></td>
+    <td><p>A sikeres kapcsolódás után a megfelelő mezőt kitöltjük, majd Send gombbal elküldjük.</p></td>
+    <td><p>Az elküldött üzenet megjelenik a csoportban, másik felhasználóknak is látható módon.</p></td>
+    <td><p>Az üzenet nem jelent meg képernyőn, de a szerver jelezte, hogy érzékelte.</p></td>
+  </tr>
+ </table>
