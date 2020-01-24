@@ -6,12 +6,10 @@ A felhasználóknak lehetőségük van profilképet használatára is, de ez nem
 A program szerver és kliens részből is áll, a szerveren tárolva vannak az üzenetek, míg a kliens arra használandó hogy egyes felhasználók kapcsolatba tudjanak lépni másokkal.
 
 <h3><strong>2) Projekt terv</strong></h3>
-  <h4>Projektszerepkörök:</h4>
-  <ul>
-  <li>Project Manager</li>
-  <li>Fejlesztő</li>
-  <li>Tervező</li>
-  </ul>
+  <p><h4>Projektszerepkörök:</h4>
+  
+  Menedzsment: tanár<br>
+  Csapat: Offenbächer Géza, Urbán Regina, Kuborcik Ádám, Geng Julián, Mohai Ferenc</p>
 
   <a href="https://github.com/afplabor2019/husi/blob/master/Chat%20project/Documents/%C3%BCtemterv.md">Ütemterv</a>
 <h3><strong>3) Üzleti folyamatok modellje</strong></h3>
@@ -49,8 +47,10 @@ ChatCsoport.5: A gomb lenyomására a begépelt üzenet elküldésre kerül, a t
 
 
 <h3><strong>6) Fizikai környeze</strong></h3>
-  <h4>Fejlesztési nyelv: Java</h4>
-  <h4>Használt framework: JavaFX</h4> 
+  <p>Fejlesztési nyelv: Java<br>
+  Használt framework: JavaFX<br><br>  
+  Az alkalmazás bármilyen operációs rendszeren képes lesz elfutni, mivel egy webes alkalmazásról van szó, az általunk készített kódot a különböző böngészők képesek értelmezni. Ebből adódóan nem igényel hatalmas erőforrásokat, egy kétmagos processzor, valamint 2-4GB memóriával (RAM) rendelkező számitógép/laptop képes hiba nélkül futtatni az alkalmazást.</p>
+  
 <h3><strong>7) Absztrakt domain modell</strong></h3>
 <h4>Státusz:</h4> A felhasználó megadhatja, hogy elérhetőnek jelezze-e ki a program a többi felhasználó felé. Az ONLINE, AWAY és BUSY lehetőségek közül választhat.
 <h4>Üzenet típusok:</h4> A különböző üzenetek más-más kategóriába tartoznak: CONNECTED, DISCONNECTED, STATUS üzenetek, a USER-ek üzenetei, a SERVER által küldött üzenetek, NOTIFICATION, és VOICE, azaz hang üzenetek.<br>
