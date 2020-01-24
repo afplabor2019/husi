@@ -58,11 +58,12 @@ ChatCsoport.5: A gomb lenyomására a begépelt üzenet elküldésre kerül, a t
 
 <h3><strong>8) Architekturális terv</strong></h3>
 A szerverre több kliens is fel tud csatlakozni.<br>
-Az alkalmazás fő komponensei: User osztály (Status enum), Listener osztály, Message osztály, Server. (Részletesebben lásd az Implementációs tervben).<br>
-Biztonsági funkciók jelenleg nincsenek megvalósítva, de adott chat csoportba való belépéshez kell a hostname és a port szám pontos megadása.<br>
-A későbbi verziókban lehet szó a felhasználók eltárolásáról, valamint bejelentkezéskor jelszó kéréséről az adott fiókhoz. A jelszó választásra lehetnek majd különböző megszorítások, pl.: minimum karakterhossz, maximum karakterhossz, tartalmazzon valamennyi kis/nagybetűt, esetleg számot.<br>
-A rendszer esetleg tovább bővíthető kényelmi funkciókkal is a biztonságiak mellett. Például a felület személyre szabása, reakciók az üzenetekre esetleg különböző formátumok csatolása.<br>
-A biztonsági funkciók és a további bővítések a következő verzió készítése esetén megbeszélésre kerülhetnek.
+<br>Az alkalmazás fő komponensei: User osztály (Status enum), Listener osztály, Message osztály, Server.
+(Részletesebben lásd az Implementációs tervben).<br>
+<br>Biztonsági funkciók jelenleg nincsenek megvalósítva, de adott chat csoportba való belépéshez kell a hostname és a port szám pontos megadása.<br>
+<br>A későbbi verziókban lehet szó a felhasználók eltárolásáról, valamint bejelentkezéskor jelszó kéréséről az adott fiókhoz. A jelszó választásra lehetnek majd különböző megszorítások, pl.: minimum karakterhossz, maximum karakterhossz, tartalmazzon valamennyi kis/nagybetűt, esetleg számot.<br>
+<br>A rendszer esetleg tovább bővíthető kényelmi funkciókkal is a biztonságiak mellett. Például a felület személyre szabása, reakciók az üzenetekre esetleg különböző formátumok csatolása.<br>
+<br>A biztonsági funkciók és a további bővítések a következő verzió készítése esetén megbeszélésre kerülhetnek.
 
 
 <h3><strong>9) Implementációs terv</strong></h3>
