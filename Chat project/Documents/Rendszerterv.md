@@ -112,31 +112,31 @@ A későbbi verziókban lehet szó a felhasználók eltárolásáról, valamint 
     <td><p>Hibás szerver adatok esete.</p></td>
     <td><p>Felhasználónév, rossz port és/vagy hostname megadása.</p></td>
     <td><p>A kezdőképernyőn maradunk, sikertelen kapcsolódás.</p></td>
-    <td><p>-</p></td>
+    <td><p>Sikertelen csatlakozás, nem enged be a csoport oldalra.</p></td>
   </tr>
   <tr>
     <td><p>Fénykép betöltése profilképnek.</p></td>
     <td><p>Legördülő menüvel fénykép választása a profilhoz + felhasználónév, hostname, port megadása.</p></td>
     <td><p>A kép már a kezdőképernyőn megjelenik az erre kijelölt helyen, a csoportba lépve továbbra is látható marad.</p></td>
-    <td><p>-</p></td>
+    <td><p>Sikeres</p></td>
   </tr>
   <tr>
     <td><p>Nincs betöltve fénykép.</p></td>
     <td><p>Kapcsolódás előtt nem adunk meg fényképet, Deafault-on hagyjuk.</p></td>
     <td><p>A Default kép van a kezdőképernyőn és a csoportban is az erre kijelölt helyeken.</p></td>
-    <td><p>-</p></td>
+    <td><p>Sikeres</p></td>
   </tr>
   <tr>
     <td><p>Státusz állítása.</p></td>
     <td><p>A kapcsolódás után legördülő menüvel kiválasztjuk a státuszt.</p></td>
     <td><p>A kiválasztott státusznak megfelelő jelzés van a felhasználó neve mellett, mindenki számára így jelenik meg.</p></td>
-    <td><p>-</p></td>
+    <td><p>Sikeres</p></td>
   </tr>
   <tr>
     <td><p>Státusz Default.</p></td>
     <td><p>Nem állítunk semmit a státuszon a kapcsolódás után.</p></td>
     <td><p>A státusz online állapotot mutat, mindenki számára látható módon.</p></td>
-    <td><p>-</p></td>
+    <td><p>Sikeres</p></td>
   </tr>
   <tr>
     <td><p>Üzenet küldése.</p></td>
