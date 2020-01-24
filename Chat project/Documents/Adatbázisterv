@@ -1,0 +1,11 @@
+A logikai adatmodell (draw.io által készített drawio file típus):
+
+https://drive.google.com/open?id=1qwm7jlOoIIKdhBKRbFzQ_xZ8vrk92u_o
+
+Tárolt eljárások:
+
+Üzenet küldése, Hang üzenet küldése, Beszélgetéshez hozzáadás, Felhasználónév beállítása, Kép feltöltése, Online felhasználók darabra, Online felhasználók kilistázása, Új üzenet küldése, Enterrel való küldés, Alkalmazás bezárása, Szerver üzenet küldés, Ablak inícializálása, Kép címének beállítása, Kijelentkezés
+
+Fizikai adatmodellt legeneráló SQL skript (pls kiterjesztés):
+
+https://drive.google.com/open?id=1ia307bbly3fGn8qyqAwuoabXtJ64dStX
