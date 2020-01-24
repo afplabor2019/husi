@@ -1,0 +1,10 @@
+.button {
+    -fx-opacity: 1.0;
+}
+
+.button:hover {
+    -fx-color: Blue;
+    -fx-bg: "arrow.png";
+    -fx-opacity: 12.6;
+}
+
