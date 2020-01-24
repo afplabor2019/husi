@@ -53,11 +53,17 @@ ChatCsoport.5: A gomb lenyomására a begépelt üzenet elküldésre kerül, a t
   <h4>Használt framework: JavaFX</h4> 
 <h3><strong>7) Absztrakt domain modell</strong></h3>
 <h4>Státusz:</h4> A felhasználó megadhatja, hogy elérhetőnek jelezze-e ki a program a többi felhasználó felé. Az ONLINE, AWAY és BUSY lehetőségek közül választhat.
-<h4>Üzenet típusok:</h4> A különböző üzenetek más-más kategóriába tartoznak: CONNECTED, DISCONNECTED, STATUS üzenetek, a USER-ek üzenetei, a SERVER által küldött üzenetek, NOTIFICATION, és VOICE, azaz hang üzenetek.
-<br>
-A rendszer durva vázlata: https://drive.google.com/open?id=15ewylUY14474dYwYU31Y-oLHu4MCckk9
+<h4>Üzenet típusok:</h4> A különböző üzenetek más-más kategóriába tartoznak: CONNECTED, DISCONNECTED, STATUS üzenetek, a USER-ek üzenetei, a SERVER által küldött üzenetek, NOTIFICATION, és VOICE, azaz hang üzenetek.<br>
+<br>A rendszer durva vázlata: https://drive.google.com/open?id=15ewylUY14474dYwYU31Y-oLHu4MCckk9
 
 <h3><strong>8) Architekturális terv</strong></h3>
+A szerverre több kliens is fel tud csatlakozni.<br>
+Az alkalmazás fő komponensei: User osztály (Status enum), Listener osztály, Message osztály, Server. (Részletesebben lásd az Implementációs tervben).<br>
+Biztonsági funkciók jelenleg nincsenek megvalósítva, de adott chat csoportba való belépéshez kell a hostname és a port szám pontos megadása.<br>
+A későbbi verziókban lehet szó a felhasználók eltárolásáról, valamint bejelentkezéskor jelszó kéréséről az adott fiókhoz. A jelszó választásra lehetnek majd különböző megszorítások, pl.: minimum karakterhossz, maximum karakterhossz, tartalmazzon valamennyi kis/nagybetűt, esetleg számot.<br>
+A rendszer esetleg tovább bővíthető kényelmi funkciókkal is a biztonságiak mellett. Például a felület személyre szabása, reakciók az üzenetekre esetleg különböző formátumok csatolása.<br>
+A biztonsági funkciók és a további bővítések a következő verzió készítése esetén megbeszélésre kerülhetnek.
+
 
 <h3><strong>9) Implementációs terv</strong></h3>
 
