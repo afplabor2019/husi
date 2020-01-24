@@ -26,15 +26,12 @@ Felhasználók:
 Minden felhasználónak lehet egy általa választott felhasználó neve, valamint egy profilképe. A felhasználó név megadása   kötelező, a profilkép esetében van lehetőség a Default kép használatára, ami egy előre beállított kép. Ez a kép minden felhasználónak   azonos, ha nem választ a felhasználó saját képet automatikusan ez kerül majd beállításra.A chat program használatához meg kell adni a szerver adatait (hostname és port szám), ez a felhasználó feladata a kapcsolat létrehozása előtt. Ha helyesek az adatok a felhasználó üzeneteket küldhet és fogadhat. A felhasználó beállíthatja a saját státuszát egy legördülő listán az előre deffiniált státuszokból (ONLINE, BUSY, AWAY). <br>
 Mivel a felhasználó manuálisan beállítja a kapcsolat létrehozásához szükséges részeket, így nincs szükség más kitüntetett szerepkörre a program használatához.<br>
 
-![Rendszerhasználati esetek és lefutásaik]
-(https://drive.google.com/open?id=1fyC6sqUgozl49Uy6JTC1WsLg5Myc0CmE)
+Rendszerhasználati esetek és lefutásaik: https://drive.google.com/open?id=1fyC6sqUgozl49Uy6JTC1WsLg5Myc0CmE
 <br>
 <h4>Határosztályok:</h4>
-![Kezdőképernyő]
-(https://drive.google.com/open?id=1CbXUm7lEC-_mJJRiYU7vxrpZyNFc2I-m)
+Kezdőképernyő: https://drive.google.com/open?id=1CbXUm7lEC-_mJJRiYU7vxrpZyNFc2I-m
 <br>
-![ChatCsoport]
-(https://drive.google.com/open?id=1-Nu4d-eXz_1nwVE3WUqRqqmtZ9u0GcjZ)
+ChatCsoport: https://drive.google.com/open?id=1-Nu4d-eXz_1nwVE3WUqRqqmtZ9u0GcjZ
 
 Kezdőképernyő.1: a felhasználónak lehetősége van a profilkép kiválasztására, ezzel a legördülő menüvel. Ha nem választ másikat a Default kép marad a profilhoz.<br>
 Kezdőképernyő.2: a felhasználó profilképe. Ha választ a legördülő menü segítségével, a kiválasztott képet jeleníti meg. Default esetén a képen látható módon az alapértelmezetten beálított profilkép társul a felhasználóhoz.<br>
