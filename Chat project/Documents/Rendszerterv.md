@@ -26,7 +26,29 @@ Felhasználók:
 Minden felhasználónak lehet egy általa választott felhasználó neve, valamint egy profilképe. A felhasználó név megadása   kötelező, a profilkép esetében van lehetőség a Default kép használatára, ami egy előre beállított kép. Ez a kép minden felhasználónak   azonos, ha nem választ a felhasználó saját képet automatikusan ez kerül majd beállításra.A chat program használatához meg kell adni a szerver adatait (hostname és port szám), ez a felhasználó feladata a kapcsolat létrehozása előtt. Ha helyesek az adatok a felhasználó üzeneteket küldhet és fogadhat. A felhasználó beállíthatja a saját státuszát egy legördülő listán az előre deffiniált státuszokból (ONLINE, BUSY, AWAY). <br>
 Mivel a felhasználó manuálisan beállítja a kapcsolat létrehozásához szükséges részeket, így nincs szükség más kitüntetett szerepkörre a program használatához.<br>
 
-![Rendszerhasználati esetek és lefutásaik]()
+![Rendszerhasználati esetek és lefutásaik]
+(https://drive.google.com/open?id=1fyC6sqUgozl49Uy6JTC1WsLg5Myc0CmE)
+<br>
+<h4>Határosztályok:</h4>
+![Kezdőképernyő]
+(https://drive.google.com/open?id=1CbXUm7lEC-_mJJRiYU7vxrpZyNFc2I-m)
+<br>
+![ChatCsoport]
+(https://drive.google.com/open?id=1-Nu4d-eXz_1nwVE3WUqRqqmtZ9u0GcjZ)
+
+Kezdőképernyő.1: a felhasználónak lehetősége van a profilkép kiválasztására, ezzel a legördülő menüvel. Ha nem választ másikat a Default kép marad a profilhoz.<br>
+Kezdőképernyő.2: a felhasználó profilképe. Ha választ a legördülő menü segítségével, a kiválasztott képet jeleníti meg. Default esetén a képen látható módon az alapértelmezetten beálított profilkép társul a felhasználóhoz.<br>
+Kezdőképernyő.3: a felhasználónak meg kell adni a felhasználó nevét, amit ebben a mezőben tud megtenni a billentyűzet segítségével.<br>
+Kezdőképernyő.4: A szerver adatinak megadása ebben a két mezőben történik. Az első mezőbe a felhasználónak a Hostname-et kell megadnia, a másodikban pedig a port számot. Ha ezek az adatok hibásak, nem tud kapcsolódni a szerverre.<br>
+Kezdőképernyő.5: Ha a szerver adatok helyesek voltak akkor ennek a gombnak a megnyomásával kapcsolódik a felhasználó a szerverre. Ha minden rendben megy akkor automatikusan be lépünk a chat csoportba a korábban megadott felhasználónévvel, és az esetleg kiválasztott profilképpel.<br>
+
+ChatCsoport.1: ezzel a legördülő menüvel a belépett felhasználó kiválaszthatja a státuszát (ONLINE, AWAY, BUSY). Alapértelmezésben az ONLINE státusz van beállítva belépéskor.<br>
+ChatCsoport.2: itt jelenítődik meg a korábban kiválasztott profilkép vagy az alapértelmezett profilkép<br>
+ChatCsoport.3: itt jelennek meg az adott szerverre felcsatlakozott felhasználók nevei, valamint a nevük mellett a státuszukra vonatkozó jelzés.<br>
+ChatCsoport.4: ide gépelhető a felhasználó által elküldeni kívánt üzenet.<br>
+ChatCsoport.5: A gomb lenyomására a begépelt üzenet elküldésre kerül, a többi felhasználónak látható módon.<br>
+<br>A képernyő középső részén jelennek meg az elküldött és a fogadott üzenetek.
+
 
 
 <h3><strong>6) Fizikai környeze</strong></h3>
